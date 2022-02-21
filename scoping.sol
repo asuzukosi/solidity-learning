@@ -15,6 +15,7 @@ contract Caller {
    }
 }
 contract D is C {
+   uint storedData = 20 
    function y() public returns (uint) {
       iData = 3; // internal access
       return iData;
@@ -23,6 +24,6 @@ contract D is C {
       uint a = 1; // local variable
       uint b = 2;
       uint result = a + b;
-      return storedData; //access the state variable
+      return storedData * result; //access the state variable
    }
 }

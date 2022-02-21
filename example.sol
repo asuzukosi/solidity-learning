@@ -1,6 +1,10 @@
 pragma solidity ^0.5.0;
 contract SolidityTest {
+    uint peopleCount = 0;
    constructor() public{
+   }
+   function incremenentCount() internal {
+       peopleCount += 1;
    }
    function getResult() public view returns(uint){
        // this is a comment similar to c++
