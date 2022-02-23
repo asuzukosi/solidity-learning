@@ -5,3 +5,7 @@ A smart contract is immutable code that is executed on the blockchain. Smart con
 
 
 View functions in solidity are functions that do  not modify state
+
+DAO's are decentralized organizations that live on a blockchain and are completely trasparent
+
+A fuacet is a test net application that gives us free ethereum
